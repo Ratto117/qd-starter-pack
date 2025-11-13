@@ -49,7 +49,7 @@
 # }
 def week_day():
     week = int(input("Enter week number(1-7): "))
-    if(week in range(1,8)):
+    if week in range(1,8):
         arr = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
         print(arr[week-1])
     else:
